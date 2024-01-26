@@ -3,7 +3,12 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	 <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -11,7 +16,7 @@
 	  <h2>Feedback Form</h2>
     <form>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" pattern=".{3,50}" title="Name must have 3 to 50 characters" required>
+        <input type="text" id="name" name="name" required>
         <br>
 
         <label for="portfolio">Portfolio:</label>
